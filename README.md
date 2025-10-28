@@ -60,3 +60,5 @@ $ git log -- reverse
 
 '' -n
 최근 n개
+
+% git config --global alias.co checkpoint

@@ -63,4 +63,11 @@ $ git log -- reverse
 
 % git config --global alias.co checkpoint
 
+$ git reset HEAD 파일명 
+수정된 파일을 스테이징했을 때, 스테이징을 취소합니다
+
+$ git reset --hard 복사한 커밋 해시
+'복사한 커밋 해시'로 되돌리고, 그 이후의 버전(커밋)들은 삭제합니다.
+
+
 
